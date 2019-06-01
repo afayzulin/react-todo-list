@@ -1,11 +1,12 @@
 import React from 'react';
 
-function App() {
+function TodoItem() {
     return (
-            <p style={{color: 'red'}}>Choose:
-                <input type="checkbox" />
-            </p>
+        <div className="todo-item">
+            <input type="checkbox" />
+            <p>Placeholder text here</p>
+        </div>
     );
 }
 
-export default App;
+export default TodoItem;
